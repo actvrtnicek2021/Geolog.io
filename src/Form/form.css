@@ -1,0 +1,100 @@
+div {
+    position: relative;
+    top: 5px;
+}
+#bigDiv {
+    top: 0;
+}
+.checkForm {
+    display: block;
+    margin: 30px 400px;
+    text-align: left;
+}
+.checkForm label {
+    display: block;
+}
+.choices {
+    margin-left: 100px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.formButton {
+    background-color: rgb(102, 252, 241);
+    border-radius: 15px;
+    border: 2px solid rgb(11, 12, 16);
+    color: rgb(11, 12, 16);
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.formButton:hover {
+    background-color: rgb(11, 12, 16);
+    border: 2px solid;
+    border-color: rgb(102, 252, 241);
+    color: rgb(102, 252, 241);
+    font-weight: bold;
+}
+#show {
+    font-size: 15px;
+    padding: 6px;
+    border-width: 1px;
+    display: inline;
+    margin: 10px 10px;
+}
+#openOrClose {
+    font-size: 15px;
+    padding: 6px;
+    border-width: 1px;
+    display: inline;
+    margin: 10px 10px;
+}
+.category {
+    font-size: 20px;
+    font-weight: bold;
+}
+#advanced {
+    display: inline;
+}
+.options {
+    margin-top: 5px;
+}
+.checkboxes {
+    margin-right: 10px;
+}
+.numberInput {
+    font-size: 15px;
+    display: block;
+    margin: 30px 400px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.numberInput input {
+    width: 30px;
+    margin-left: 20px;
+}
+.advancedInput {
+    display: inline-block;
+    width: 600px;
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+.advancedInput label {
+    display: inline;
+    margin: 10px 15px;
+}
+#customHeadline {
+    display: inline;
+}
+.customList {
+    display: inline;
+    white-space: nowrap;
+}
+#mode {
+    margin-top: 0;
+}
+#go {
+    margin-top: 10px;
+}

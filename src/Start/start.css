@@ -1,0 +1,26 @@
+.start {
+    display: block;
+    text-align: center;
+    margin: 200px auto;
+}
+
+.start h1 {
+    font-size: 90px;
+}
+
+.start button {
+    background-color: rgb(102, 252, 241);
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.start button:hover {
+    background-color: rgb(11, 12, 16);
+    padding: 8px 23px;
+    border: 2px solid rgb(102, 252, 241);
+    color: rgb(102, 252, 241);
+    font-weight: bold;
+}

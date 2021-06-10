@@ -1,0 +1,86 @@
+.game h1,
+h2,
+img,
+form {
+    margin: 0 auto;
+}
+.game h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.guess {
+    margin-left: 25px;
+    border: 2px solid rgb(102, 252, 241);
+    border-radius: 15px;
+    background-color: rgb(11, 12, 16);
+    color: rgb(102, 252, 241);
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    padding-left: 7px;
+    font-size: 18px;
+}
+.select {
+    font-size: 18px;
+    text-align: center;
+}
+#mineralKeys {
+    background-color: rgb(11, 12, 16);
+    border-radius: 15px;
+    color: rgb(102, 252, 241);
+}
+.game img {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.check {
+    background-color: rgb(102, 252, 241);
+    border-radius: 15px;
+    border: 2px solid rgb(11, 12, 16);
+    color: rgb(11, 12, 16);
+    display: inline;
+    margin: 30px 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.check:hover {
+    background-color: rgb(11, 12, 16);
+    border: 2px solid rgb(102, 252, 241);
+    color: rgb(102, 252, 241);
+    font-weight: bold;
+}
+.game label {
+    font-size: 20px;
+    font-weight: bold;
+}
+#guess {
+    margin-top: 20px;
+}
+.imageArray {
+    margin: 10px;
+}
+#arrayCheck {
+    display: block;
+    margin: 25px auto;
+}
+.guessFaded {
+    margin-left: 25px;
+    border: 2px solid rgb(102, 252, 241);
+    border-radius: 15px;
+    background-color: rgb(11, 12, 16);
+    color: rgb(102, 252, 241);
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    padding-left: 7px;
+    font-size: 18px;
+    opacity: 0.5;
+}
+.imageContainer {
+    margin: 25px auto;
+    height: 350px;
+    width: 500px;
+}

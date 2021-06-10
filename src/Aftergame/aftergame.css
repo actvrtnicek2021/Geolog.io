@@ -1,0 +1,42 @@
+.aftergame {
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.aftergame button {
+    background-color: rgb(102, 252, 241);
+    border-radius: 15px;
+    border: 2px solid rgb(11, 12, 16);
+    color: rgb(11, 12, 16);
+    display: inline-block;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.aftergame button:hover {
+    background-color: rgb(11, 12, 16);
+    border: 2px solid rgb(102, 252, 241);
+    color: rgb(102, 252, 241);
+    font-weight: bold;
+}
+#continue,
+#startAgain {
+    margin-right: 30px;
+}
+.select {
+    display: block;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.inactive {
+    display: block;
+}
